@@ -3,7 +3,7 @@ kind: Application
 metadata:
   name: argocd-deploy
 
-  namespace: argocd  # ArgoCD's namespace
+  namespace: my-argocd1 # ArgoCD's namespace
 spec:
   project: default
 
